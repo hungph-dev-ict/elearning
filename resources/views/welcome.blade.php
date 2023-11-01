@@ -17,7 +17,7 @@
   <meta name="keywords" content="bootstrap, bootstrap4" />
 
 		<!-- Bootstrap CSS -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
         <link rel="stylesheet" href="{{ asset('assets/css/tiny-slider.css') }}">
         <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
@@ -49,8 +49,8 @@
 					</ul>
 
 					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
-						<li><a class="nav-link" href="#"><img src="images/user.svg"></a></li>
-						<li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
+						<li><a class="nav-link" href="#"><img src="{{ asset('assets/images/user.svg') }}"></a></li>
+						<li><a class="nav-link" href="cart.html"><img src="{{ asset('assets/images/cart.svg') }}"></a></li>
 					</ul>
 				</div>
 			</div>
@@ -95,12 +95,12 @@
 					<!-- Start Column 2 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
 						<a class="product-item" href="cart.html">
-							<img src="images/product-1.png" class="img-fluid product-thumbnail">
+							<img src="{{ asset('assets/images/product-1.png') }}" class="img-fluid product-thumbnail">
 							<h3 class="product-title">Nordic Chair</h3>
 							<strong class="product-price">$50.00</strong>
 
 							<span class="icon-cross">
-								<img src="images/cross.svg" class="img-fluid">
+								<img src="{{ asset('assets/images/cross.svg') }}" class="img-fluid">
 							</span>
 						</a>
 					</div> 
@@ -109,12 +109,12 @@
 					<!-- Start Column 3 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
 						<a class="product-item" href="cart.html">
-							<img src="images/product-2.png" class="img-fluid product-thumbnail">
+							<img src="{{ asset('assets/images/product-2.png') }}" class="img-fluid product-thumbnail">
 							<h3 class="product-title">Kruzo Aero Chair</h3>
 							<strong class="product-price">$78.00</strong>
 
 							<span class="icon-cross">
-								<img src="images/cross.svg" class="img-fluid">
+								<img src="{{ asset('assets/images/cross.svg') }}" class="img-fluid">
 							</span>
 						</a>
 					</div>
@@ -123,7 +123,7 @@
 					<!-- Start Column 4 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
 						<a class="product-item" href="cart.html">
-							<img src="images/product-3.png" class="img-fluid product-thumbnail">
+							<img src="{{ asset('assets/images/product-3.png') }}" class="img-fluid product-thumbnail">
 							<h3 class="product-title">Ergonomic Chair</h3>
 							<strong class="product-price">$43.00</strong>
 
@@ -238,7 +238,7 @@
 					<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
 						<div class="product-item-sm d-flex">
 							<div class="thumbnail">
-								<img src="images/product-1.png" alt="Image" class="img-fluid">
+								<img src="{{ asset('assets/images/product-1.png') }}" alt="Image" class="img-fluid">
 							</div>
 							<div class="pt-3">
 								<h3>Nordic Chair</h3>
@@ -251,7 +251,7 @@
 					<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
 						<div class="product-item-sm d-flex">
 							<div class="thumbnail">
-								<img src="images/product-2.png" alt="Image" class="img-fluid">
+								<img src="{{ asset('assets/images/product-2.png') }}" alt="Image" class="img-fluid">
 							</div>
 							<div class="pt-3">
 								<h3>Kruzo Aero Chair</h3>

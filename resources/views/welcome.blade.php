@@ -443,7 +443,7 @@
 				<div class="row">
 					<div class="col-lg-8">
 						<div class="subscription-form">
-							<h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
+							<h3 class="d-flex align-items-center"><span class="me-1"><img src="{{ asset('assets/images/envelope-outline.svg') }}" alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
 
 							<form action="#" class="row g-3">
 								<div class="col-auto">
@@ -538,9 +538,9 @@
 		<!-- End Footer Section -->	
 
 
-		<script src="js/bootstrap.bundle.min.js"></script>
-		<script src="js/tiny-slider.js"></script>
-		<script src="js/custom.js"></script>
+		<script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+		<script src="{{ asset('assets/js/tiny-slider.js') }}"></script>
+		<script src="{{ asset('assets/js/custom.js') }}"></script>
 	</body>
 
 </html>
